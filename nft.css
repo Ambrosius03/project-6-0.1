@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',Sans-Serif;
+}
+body{
+  height: 100vh;
+  background-color: #E4E5DF;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  display: flex;
+  flex-direction: column;
+  margin-left:1rem;
+  margin-top:1rem ;
+}
+.search{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  border:2px solid #232323;
+  border-radius: 15px;
+  width: 230px;
+  margin-top:5rem;
+  margin-right:1rem ;
+}
+.search .input{
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.search .search-icon{
+  display: flex;
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: #000;
+}
+.section{
+  display: flex;
+  margin-top:1.5rem ;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+.section .active{
+  border:2px solid #000;
+  background-color: #000;
+  border-radius: 15px;
+  width: 65px;
+}
+.section .active p{
+  color: #fff;
+}
+.section button{
+  border: 2px solid #BCBCBE;
+  border-radius:15px;
+  background-color: #BCBCBE;
+  width: 65px;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.container .grid1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  height:250px;
+  width: 150px;
+}
+.grid1 .image{
+  border-radius: 10px;
+}
+.grid1 .info{
+  display: flex;
+  justify-content: space-between;
+  margin-top:1.5rem ;
+  gap:1rem;
+}
+.grid1 .info span{
+  font-size: 14px;
+}
+.grid1 .info button{
+  border: none;
+  background: transparent;
+}
+.grid1 p{
+  margin-top:0.5rem ;
+  font-weight: 600;
+}
+
+
+.container .grid2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  height:250px;
+  width: 150px;
+}
+.grid2 .image{
+  border-radius: 10px;
+}
+.grid2 .info{
+  display: flex;
+  justify-content: space-between;
+  margin-top:1.5rem ;
+  gap:1rem;
+}
+.grid2 .info span{
+  font-size: 14px;
+}
+.grid2 .info button{
+  border: none;
+  background: transparent;
+}
+.grid2 p{
+  margin-top:0.5rem ;
+  font-weight: 600;
+}
+
+
+
+.container .grid3{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  height:250px;
+  width: 150px;
+}
+.grid3 .image{
+  border-radius: 10px;
+}
+.grid3 .info{
+  display: flex;
+  justify-content: space-between;
+  margin-top:1.5rem ;
+  gap:1rem;
+}
+.grid3 .info span{
+  font-size: 14px;
+}
+.grid3 .info button{
+  border: none;
+  background: transparent;
+}
+.grid3 p{
+  margin-top:0.5rem ;
+  font-weight: 600;
+}
+
+
+.container .grid4{
+ display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-left: 1rem; 
+}
+.container .grid4 .range{
+  display: flex;
+  flex-direction: column;
+  gap:0.5rem;
+}
+
+.container .grid4 .range #input{
+  outline: none;
+  color: #000;
+  background-color: #000;
+  width:250px ;
+}
+
+.container .grid4 .color{
+  display: flex;
+  flex-direction: column;
+  margin-top:1rem ;
+  gap:0.5rem;
+}
+
+.container .grid4 .text{
+  display: flex;
+  border: 2px solid #000;
+  border-radius:8px;
+  width: 250px;
+}
+.container .grid4 .text #color{
+  border:none ;
+  outline: none;
+  background: transparent;
+  text-align: left;
+}
+
+.container .grid4 .likes{
+  display: flex;
+  flex-direction: column;
+  margin-top:1rem ;
+  gap:0.5rem;
+}
+
+.container .grid4 .text{
+  display: flex;
+  border: 2px solid #000;
+  border-radius:8px;
+  width: 250px;
+}
+.container .grid4 .text #likes{
+  border:none ;
+  outline: none;
+  background: transparent;
+  text-align: left;
+}
+.container .grid4 span{
+  font-weight: 600;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  margin-top:2.5rem ;
+}
+footer a{
+  text-align: center;
+  text-decoration: none;
+  color: #fff;border:2px solid #000;
+  background-color: #000;
+  border-radius: 15px;
+  width: 150px;
+}
+.ft{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  margin-top:3rem;
+  opacity: 0.5;
+  font-size: 10px;
+}

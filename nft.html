@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="nft.css">
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <title>nft-catalog</title>
+  </head>
+  <body>
+  <header class="header">
+      <div class="logo">
+       <h1>NFTs</h1>
+       <span class="brand">Browse by category</span>
+      </div>
+      <div class="search">
+        <a href="#" class="search-icon"><i class='bx bx-search'></i></a>
+        <input class="input" type="text" placeholder="name or description">
+        </input>
+      </div>
+  </header>
+  <section class="section">
+    <button class="active"><p>All Items</p></button>
+    <button>Art</button>
+    <button>Photos</button>
+    <button>Music</button>
+    <button>Games</button>
+    <button>Sports</button>
+    <button>Domains</button>
+  </section>
+  <container class="container">
+    <div class="grid1">
+      <img class="image" src="nft1.jpeg"></img>
+      <div class="info">
+        <span>Monkey #5024</span>
+        <button>721<i class='bx bx-heart'></i></button>
+      </div>
+    <p>Price 0.74 ETH</p>
+    </div>
+    <div class="grid2">
+          <img class="image" src="nft2.jpeg"></img>
+      <div class="info">
+        <span>Monkey #7158</span>
+        <button>374<i class='bx bx-heart'></i></button>
+      </div>
+    <p>Price 1.15 ETH</p>
+    </div>
+    <div class="grid3">
+           <img class="image" src="nft3.jpeg"></img>
+      <div class="info">
+        <span>Monkey #8677</span>
+        <button>895<i class='bx bx-heart'></i></button>
+      </div>
+    <p>Price 0.74 ETH</p>
+    </div>
+    <div class="grid4">
+      <div class="range">
+        <span>Price Range</span>
+          <input id='input' type="range" id="vol" name="vol" min="0" max="50">
+      </div>
+      <div class="color">
+        <span>Color</span>
+        <div class="text">
+        <input id="color" type="text" placeholder="choose color"><i class='bx bx-chevron-down'></i></input>
+        </div>
+      </div>
+      <div class="likes">
+        <span>Likes</span>
+        <div class="text">
+        <input id="likes" type="text" placeholder="most likes"><i class='bx bx-chevron-down'></i></input>
+        </div>
+      </div>
+    </div>
+  </container>
+  
+  <footer><a href="#">Load more</a>
+  </footer>
+  <footer class="ft">Copy right | ©amor$code | Privacy police</footer>
+  
+  <script src="nft.js"></script>  
+  </body>
+  </html>
